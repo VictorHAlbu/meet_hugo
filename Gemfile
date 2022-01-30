@@ -5,6 +5,11 @@ ruby '3.0.0'
 
 gem 'stimulus-rails'
 
+#video cal
+gem "opentok", "~> 4.0.0"
+
+gem 'dotenv-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.1'
 # Use postgresql as the database for Active Record
