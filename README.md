@@ -1,5 +1,5 @@
 # MeetHugo
-A aplicação MeetHugo é similar a o meet do google, onde o usuário pode fazer chamadas de vídeo em tempo eral
+A aplicação MeetHugo é similar a o meet do google, onde o usuário pode fazer chamadas de vídeo em tempo real
 
 # Tecnologias
 
