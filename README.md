@@ -1,24 +1,38 @@
-# README
+# MeetHugo
+A aplicação MeetHugo é similar a o meet do google, onde o usuário pode fazer chamadas de vídeo em tempo eral
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Tecnologias
 
-Things you may want to cover:
+Para desenvolver o projeto foi usado as tecnologias: Ruby on Rails, JavaScript, Sqlite e Bootstrap
 
-* Ruby version
+### Pré-requisitos
 
-* System dependencies
+Para rodar o projeto na sua máquina, deve ter instalado o ruby '2.5.8' e o 'rails', '~> 6.0.3' e Postgres
 
-* Configuration
+```
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
+Mysql2 
+```
 
-* Database creation
+Na sua máquina execute os comandos:
+```
+bundle install
+yarn install
+```
 
-* Database initialization
+Obs:  
+ 
 
-* How to run the test suite
+Em seguida crie sua base de dados com comandos:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails db:create
+rails db:migrate
+```
 
-* Deployment instructions
 
-* ...
+Para subir o projeto local execute:
+```
+rails s
+```
+
