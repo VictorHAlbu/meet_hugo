@@ -3,7 +3,7 @@ A aplicação MeetHugo é similar a o meet do google, onde o usuário pode fazer
 
 # Tecnologias
 
-Para desenvolver o projeto foi usado as tecnologias: Ruby on Rails, JavaScript, Sqlite e Bootstrap
+Para desenvolver o projeto foi usado as tecnologias: Ruby on Rails, JavaScript, Sqlite e Bootstrap<br>
 Obs: esse projeto tem integração com Vonage Video API Developer, segue o site https://tokbox.com/ e criar uma conta para conseguir usar Api<br>
 Gerar seu token e chave e assim fazer integração da aplicação com api
 
