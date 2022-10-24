@@ -8,7 +8,7 @@ This application is a cloning application of Google Meet and your main features.
 Here are the technologies used in this project.
 
 * Ruby version  3.0.0
-* Rails version 6.1.4
+* Rails version 6.1.3
 * SQLite3
 
 ## Services Used
