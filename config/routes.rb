@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   root "home#index"
-  resources :message, only: %i[:create]
+  resources :messages, only: %i[:create]
 
   resources :rooms
   
