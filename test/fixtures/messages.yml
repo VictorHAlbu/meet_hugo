@@ -2,10 +2,10 @@
 
 one:
   room: one
-  user: MyString
+  user: one
   content: MyString
 
 two:
   room: two
-  user: MyString
+  user: two
   content: MyString

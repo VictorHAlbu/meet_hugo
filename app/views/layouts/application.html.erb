@@ -1,24 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MeetHugo</title>
+    <title>Hugo Meet</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-    
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
   </head>
 
   <body>
+    <%= javascript_pack_tag 'alert' %>
 
     <%= render 'shared/navbar' %>
     
-    <%= render 'shared/footer' %>
     <%= yield %>
+
+    <%= render 'shared/footer' %>
+
+    <!-- Alertas -->
+    <% if alert %>
+      <p class="alert alert-danger alert"><%= alert %></p>
+    <% end %>
+
+    <% if notice %>
+      <p class="alert alert-success notice"><%= notice %></p>
+    <% end %>
   </body>
 </html>

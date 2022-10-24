@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  root "home#index"
-  resources :messages, only: %i[:create]
-
-  resources :rooms
+  root 'home#index'
   
-  get '/search', to: 'rooms#search', as: 'search_rooms'
-
+  resources :rooms
+  resources :messages, only: [:create]
+  
+  get 'search', to: 'rooms#search', as: 'search_rooms'
 end

@@ -28,6 +28,7 @@
                     <div class="input-group">
                         <%= image_tag 'icons/keyboard', class: 'me-2' %>
                         <%= f.text_field :room_url, class: 'form-control', placeholder: 'Digite um código ou link', required: true %>
+
                         <%= f.submit 'Acessar', class: 'submit_search', 'data-bs-toggle': "modal", 'data-bs-target': "#searchModal" %>
                     </div>
                 <% end %>
@@ -38,3 +39,4 @@
     <div class="col-md-4 offset-1 mt-3">
         <%= render 'carousel' %>
     </div>
+</div>

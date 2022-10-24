@@ -1,40 +1,58 @@
-# MeetHugo
-A aplicação MeetHugo é similar a o meet do google, onde o usuário pode fazer chamadas de vídeo em tempo real
 
-# Tecnologias
-
-Para desenvolver o projeto foi usado as tecnologias: Ruby on Rails, JavaScript, Sqlite e Bootstrap<br>
-Obs: esse projeto tem integração com Vonage Video API Developer, segue o site https://tokbox.com/ e criar uma conta para conseguir usar Api<br>
-Gerar seu token e chave e assim fazer integração da aplicação com api
-
-### Pré-requisitos
-
-Para rodar o projeto na sua máquina, deve ter instalado o ruby '3.0.0' e o 'rails', '~> 6.1.4' e Postgres
-
-```
-gem 'rails', '~> 6.1.4'
-Postgres 
-```
-
-Na sua máquina execute os comandos:
-```
-bundle install
-yarn install
-```
-
-Obs:  
- 
-
-Em seguida crie sua base de dados com comandos:
-
-```
-rails db:create
-rails db:migrate
-```
+## Hugo Meet Clone
+This application is a cloning application of Google Meet and your main features. Hope you enjoy It, and thanks for your visit :)
 
 
-Para subir o projeto local execute:
-```
-rails s
-```
+## Technology 
 
+Here are the technologies used in this project.
+
+* Ruby version  3.0.0
+* Rails version 6.1.4
+* SQLite3
+
+## Services Used
+
+* Github
+
+## Ruby Gems
+
+* Bootstrap
+* JQuery-rails
+* Webpacker
+* Stimulus
+* OpenTok
+
+
+## Getting started
+
+* Dependency
+  - Ruby  
+  - Rails
+
+* To create and build your database accord of the project.
+  - rake db:create db:migrate
+  
+* To create the previous files to use on the project, on the database.
+  - rake db:seed
+  
+* To install the gems.
+  - bundle install
+  
+* To run the project.
+  - rails s
+
+## How to use
+
+## Features
+
+The main features of the application are:
+ - Create a Room.
+ - Find some Room.
+ - Talk with video conferences.
+ - Chat with other participants.
+
+
+  ## Versioning
+
+  1.0.0.0
