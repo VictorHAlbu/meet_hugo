@@ -19,7 +19,19 @@
                         Nova reunião
                     </button>
                 <% end %>
-            </div>
+            </div>   
+
+            <div class="mt-4 row">
+                <div class="col-8">
+                    <%= form_with(model: Video.new) do |f| %>
+                        <%= render "upload_video", f: f, action: "create" %>
+                        <%= button_tag nil, class: 'btn btn-primary p-2' do %>
+                            Upload Video
+                        <% end %>            
+                    <% end %>
+                </div>
+            </div>   
+    
 
             <div class="col-8">
                 <%= form_with(url: search_rooms_path, method: :get) do |f| %>
@@ -36,7 +48,10 @@
         </div>
     </div>
 
+
     <div class="col-md-4 offset-1 mt-3">
         <%= render 'carousel' %>
     </div>
+    
+
 </div>
