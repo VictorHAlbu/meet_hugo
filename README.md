@@ -1,6 +1,6 @@
 
 ## Meet Hugo Clone
-Na aplicação você pode fazer calls em tempo real que simula o google meet, ao criar uma sala no botão "Nova Reunião" sera gerado uma sala e um id onde pode ser compartilhado o id da sala criada para que outros usuários.
+Na aplicação você pode fazer calls em tempo real que simula o google meet, ao criar uma sala no botão "Nova Reunião" sera gerado uma sala e um id onde pode ser compartilhado o id da sala criada para que outros usuários possam acesar.
 
 
 ## Technology 
